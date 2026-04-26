@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЭйнштейниУм | Контакты</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="topline">
+        <a class="brand" href="./index.html">
+          <img src="./assets/logo33.png" alt="ЭйнштейниУм">
+          <span>Музей занимательных наук<br>Краснодар</span>
+        </a>
+        <div class="header-meta">
+          <p>ежедневно 10:00-20:00</p>
+          <a href="tel:+79180250260">+7 (918) 025-02-60</a>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="./index.html">Главная</a>
+        <a href="./uslugi.html">Услуги</a>
+        <a href="./show.html">Шоу</a>
+        <a href="./birthday.html">День рождения</a>
+        <a href="./prices.html">Цены</a>
+        <a href="./gallery.html">Галерея</a>
+        <a class="is-active" href="./contacts.html">Контакты</a>
+        <a href="./about.html">Еще</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="page-hero-grid">
+          <div class="page-hero-copy">
+            <p class="eyebrow light">Контакты и запись</p>
+            <h1>На странице контактов собраны адрес, телефоны, почта, WhatsApp, график и форма обратного звонка.</h1>
+            <p>Все контакты взяты только из оригинального сайта: г. Краснодар, ул. Гаврилова, 27, два телефона, WhatsApp, почта и график работы.</p>
+          </div>
+          <div class="page-hero-art placeholder-art">
+            <div class="placeholder-card placeholder-card-large">
+              <span class="placeholder-kicker">Контент-зона</span>
+              <strong>Здесь можно разместить фото фасада, ресепшена, карты или команды музея.</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-grid">
+        <div class="contact-panel">
+          <p class="eyebrow">Контакты музея</p>
+          <h2>ЭйнштейниУм</h2>
+          <p>г. Краснодар, ул. Гаврилова, 27</p>
+          <p>График работы: ежедневно с 10:00 до 20:00 по предварительной записи.</p>
+          <p><a href="tel:+79180250260">+7 (918) 025-02-60</a></p>
+          <p><a href="tel:+78612457867">+7 (861) 245-78-67</a></p>
+          <p>WhatsApp: <a href="tel:+79180250260">+7 (918) 025-02-60</a></p>
+          <p><a href="mailto:einstein_museum@mail.ru">einstein_museum@mail.ru</a></p>
+        </div>
+
+        <form class="lead-form" data-success="Контактная заявка сохранена в демо-версии.">
+          <p class="eyebrow">Заказать звонок</p>
+          <h2>Оставьте данные, чтобы вам перезвонили.</h2>
+          <label>
+            <span>Имя</span>
+            <input type="text" name="name" placeholder="Как к вам обращаться" required>
+          </label>
+          <label>
+            <span>Телефон</span>
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+          </label>
+          <label>
+            <span>Что вас интересует</span>
+            <select name="topic">
+              <option>День рождения</option>
+              <option>Экскурсия</option>
+              <option>Шоу</option>
+              <option>Мастер-класс</option>
+              <option>Другая программа</option>
+            </select>
+          </label>
+          <label>
+            <span>Комментарий</span>
+            <textarea name="comment" placeholder="Можно кратко описать запрос"></textarea>
+          </label>
+          <button class="button button-primary" type="submit">Получить звонок</button>
+          <p class="form-note">В демо форма работает локально и показывает, как будет выглядеть полноценная заявка на сайте.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p class="eyebrow">Контакты</p>
+        <h2>Теперь пользователь понимает, куда звонить и что делать дальше.</h2>
+        <p>Это один из самых полезных блоков для продажи услуг музея.</p>
+      </div>
+      <div class="footer-links">
+        <a href="./birthday.html">Заказать праздник</a>
+        <a href="./show.html">Шоу</a>
+        <a href="./prices.html">Цены</a>
+      </div>
+    </footer>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
